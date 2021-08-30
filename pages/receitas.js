@@ -1,11 +1,11 @@
 import MENU from '../components/menu'
 import FOOTER from '../components/footer'
 
-function Home(){
+function Receitas(){
     return (
         <>
             <MENU />
-
+            <div>RECEITAS</div>
             <FOOTER />
 
         </>
@@ -14,4 +14,4 @@ function Home(){
 }
 
 
-export default Home
+export default Receitas

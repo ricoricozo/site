@@ -1,8 +1,21 @@
-function menu (){
-    return <div>
-        <h1>menu</h1>
-        <h2>Oi pessoal</h2>
-        </div>
+  
+import Link from 'next/link'
+
+function MENU(){
+return(
+    <>
+        <ul>
+            <li><Link href="/">HOME</Link></li>
+            <li><Link href="https://www.google.com">google</Link></li>
+            <li><Link href="https://vercel.com">Vercel</Link></li>
+            <li><Link href="/receitas">receitas</Link></li>
+            <li><Link href="">sobre</Link></li>
+            
+
+        </ul>
+    </>
+)
+
 }
 
-export default menu
+export default MENU
