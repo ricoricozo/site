@@ -1,3 +1,5 @@
+import menu from "../components/menu";
+import footer from "../components/footer"
 function home (){
     return <div>
         <h1>Home</h1>
